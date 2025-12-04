@@ -19,3 +19,22 @@ button{
     width: 15rem;
 }
 
+header div{
+    display: flex;
+    justify-content: space-around;
+    background-color:#213f6b;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a{
+    color: white;
+}
+
+body{
+    margin: 0px;
+    background-image: url("../img/fond.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
