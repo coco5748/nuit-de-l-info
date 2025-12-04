@@ -1,0 +1,62 @@
+{
+  "0001": {
+    "titre": "Définition",
+    "question": "Que signifie 'open source' ?",
+    "reponses": [
+      "Logiciel gratuit",
+      "Code source accessible et modifiable",
+      "Logiciel propriétaire",
+      "Logiciel sans licence"
+    ],
+    "bonne": [false,true,false,false],
+    "niveau": 1
+  },
+  "0002": {
+    "titre": "Licence",
+    "question": "Quelle licence est souvent utilisée pour les projets open source ?",
+    "reponses": [
+      "GPL",
+      "MIT",
+      "Apache",
+      "Toutes les réponses ci-dessus"
+    ],
+    "bonne": [false,false,false,true],
+    "niveau": 2
+  },
+  "0003": {
+    "titre": "Communauté",
+    "question": "Quel est l’avantage principal de l’open source ?",
+    "reponses": [
+      "Support technique payant",
+      "Communauté active et collaborative",
+      "Code fermé et sécurisé",
+      "Absence de mises à jour"
+    ],
+    "bonne": [false,true,false,false],
+    "niveau": 1
+  },
+  "0004": {
+    "titre": "Exemple",
+    "question": "Lequel de ces logiciels est open source ?",
+    "reponses": [
+      "Microsoft Word",
+      "LibreOffice",
+      "Adobe Photoshop",
+      "Oracle Database"
+    ],
+    "bonne": [false,true,false,false],
+    "niveau": 1
+  },
+  "0005": {
+    "titre": "Philosophie",
+    "question": "Quelle idée est au cœur de l’open source ?",
+    "reponses": [
+      "Partage et collaboration",
+      "Secret industriel",
+      "Monétisation obligatoire",
+      "Exclusivité du code"
+    ],
+    "bonne": [true,false,false,false],
+    "niveau": 2
+  }
+}
