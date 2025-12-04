@@ -1,7 +1,11 @@
-header img{
-    float: right;
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color:#213f6b;
+    font-size: 20px;
+    padding: 20px;
 }
 
-header{
-    background-color: blue;
+a{
+    color: white;
 }
