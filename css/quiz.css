@@ -14,11 +14,10 @@
     border: solid white;
     height: 20rem;
     width: 35rem;
-    position: relative;
     left: 30rem;
     top: -2rem;
     border-radius: 5rem;
-    font-size: l;
+    margin-left: 33%;
 }
 
 #reponses{
@@ -28,27 +27,17 @@
     width: 15rem;
 }
 
-header div{
-    display: flex;
-    justify-content: space-around;
-    background-color:#213f6b;
-    font-size: 20px;
-    padding: 20px;
-}
-
 a{
     color: white;
 }
 
 body{
-    margin: 0px;
     background-image: url("../img/fond.png");
-    background-size: cover;
-    background-position: center;
     color: white;
 }
 
 .col1 , .col2{
+
 }
 
 #a ,#b ,#c ,#d{
@@ -66,15 +55,16 @@ h1{
 }
 
 #q,#ennoncer{
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 #q{
-    margin-bottom: 4px;
+    margin-bottom: 0.5rem;
 }
 
 #reset{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6rem;
+    padding-right: 6rem;
     font-size: larger;
 }
+
