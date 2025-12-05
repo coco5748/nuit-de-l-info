@@ -1,18 +1,25 @@
-html{
-    padding: 0%;
-    margin: 0%;
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#213f6b;
+    font-size: 30px;
+    padding: 20px;
 }
 
-header{
-    position: fixed;
-    display: flex;
-    align-items: center;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    height: 86px;
-    margin-left: 0px;
-    margin-right: 0px;
-    background-color: #213f6b;
-    z-index: 1;
+header img{
+    height: 80px;
+    display: block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.5s ;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    font-size: larger;
 }
