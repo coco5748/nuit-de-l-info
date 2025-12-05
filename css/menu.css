@@ -29,4 +29,5 @@ body{
     background-image: url("../img/fond.png");
     background-size: cover;
     background-position: center;
+    color: white;
 }

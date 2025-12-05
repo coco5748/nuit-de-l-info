@@ -1,0 +1,12 @@
+center>iframe {
+    margin-top: 1%;
+    display: flex;
+    width: 70%;
+    height: 80%;
+}
+
+div>p {
+    font-size: 20px;
+    margin: 2%;
+    font-style: italic;
+}
