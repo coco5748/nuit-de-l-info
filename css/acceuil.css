@@ -1,18 +1,18 @@
 main{
-    margin-left: 15%;
-    margin-top: 5%;
+    margin-left: 10rem;
+    margin-top: 2rem;
     color: white;
-    font-size: 30px;
+    font-size: 2rem;
     font-family:'courier New', 'monospace';
 }
 
 section img{
     float: left;
-    height: 300px;
+    height: 18rem;
 }
 
 section h1{
     display: flex;
     justify-content: center;
-    margin-left: -15%;
+    margin-left: -10rem;
 }

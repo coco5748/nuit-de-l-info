@@ -4,11 +4,11 @@ header div{
     align-items: center;
     background-color:#213f6b;
     font-size: 30px;
-    padding: 20px;
+    padding: 2rem;
 }
 
 header img{
-    height: 80px;
+    height: 5rem;
     display: block;
 }
 
