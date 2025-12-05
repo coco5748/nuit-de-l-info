@@ -1,8 +1,8 @@
-center>iframe {
+center iframe {
     margin-top: 1%;
     display: flex;
     width: 70%;
-    height: 80%;
+    height: 40rem;
 }
 
 div>p {
