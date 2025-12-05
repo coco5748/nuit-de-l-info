@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
     <link rel="stylesheet" href="css/quiz.css">
+    <script src="ressources/question.js"></script>
+    <script src="js/quiz.js" defer="defer"></script>
 <head>
 	<meta charset="UTF-8">
 
@@ -21,16 +23,16 @@
         <button class="launch">Lancer le quiz</button>
 
         <div id="questions">
-            <p>question 1 : </p>
-            <p>reponse :</p>
+            <p id="q">question 1 : </p>
+            <p id="ennoncer"> ennoncer :</p>
             <div id="reponses">
                 <div class="col1">
-                    <p><input type="radio" name="1">A</p>
-                    <p><input type="radio" name="1">B</p>
+                    <p><button onclick="valider(0)" type="radio" id="a" name="1">A</p>
+                    <p><button onclick="valider(1)" type="radio" id="b" name="1">B</p>
                 </div>
                 <div class="col2">
-                    <p><input type="radio" name="1">C</p>
-                    <p><input type="radio"  name="1">D</p>
+                    <p><button onclick="valider(2)" type="radio" id="c" name="1">C</p>
+                    <p><button onclick="valider(3)" type="radio" id="d" name="1">D</p>
                 </div>
             </div>
         </div>

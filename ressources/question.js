@@ -1,5 +1,5 @@
-{
-  "0001": {
+var quiz = {
+  "1": {
     "titre": "Définition",
     "question": "Que signifie 'open source' ?",
     "reponses": [
@@ -11,7 +11,7 @@
     "bonne": [false,true,false,false],
     "niveau": 1
   },
-  "0002": {
+  "2": {
     "titre": "Licence",
     "question": "Quelle licence est souvent utilisée pour les projets open source ?",
     "reponses": [
@@ -23,7 +23,7 @@
     "bonne": [false,false,false,true],
     "niveau": 2
   },
-  "0003": {
+  "3": {
     "titre": "Communauté",
     "question": "Quel est l’avantage principal de l’open source ?",
     "reponses": [
@@ -35,7 +35,7 @@
     "bonne": [false,true,false,false],
     "niveau": 1
   },
-  "0004": {
+  "4": {
     "titre": "Exemple",
     "question": "Lequel de ces logiciels est open source ?",
     "reponses": [
@@ -47,7 +47,7 @@
     "bonne": [false,true,false,false],
     "niveau": 1
   },
-  "0005": {
+  "5": {
     "titre": "Philosophie",
     "question": "Quelle idée est au cœur de l’open source ?",
     "reponses": [
