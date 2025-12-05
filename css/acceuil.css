@@ -3,7 +3,7 @@ header div{
     justify-content: space-around;
     align-items: center;
     background-color:#213f6b;
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px;
 }
 
@@ -24,12 +24,18 @@ main{
     margin-top: 5%;
     color: white;
     font-size: 30px;
-
+    font-family:'courier New', 'monospace';
 }
 
-main img{
+section img{
     float: left;
     height: 300px;
+}
+
+section h1{
+    display: flex;
+    justify-content: center;
+    margin-left: -15%;
 }
 
 a{
