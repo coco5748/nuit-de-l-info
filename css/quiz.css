@@ -15,7 +15,6 @@
     display: flex;
     justify-content: space-around;
     width: 10rem;
-    border: solid;
     width: 15rem;
 }
 
@@ -39,4 +38,10 @@ body{
     color: white;
 }
 
-#a , #b , #c, #d {}
+.col1 , .col2{
+}
+
+#a ,#b ,#c ,#d{
+    background-color: #213f6b;
+    color: white;
+}

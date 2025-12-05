@@ -25,3 +25,7 @@ function afficherQuestion(){
 
 afficherQuestion();
 
+function reset(){
+    localStorage.setItem("nb", 1)
+    afficherQuestion();
+}
