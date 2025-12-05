@@ -1,9 +1,15 @@
 header div{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color:#213f6b;
     font-size: 20px;
     padding: 20px;
+}
+
+header img{
+    height: 80px;
+    display: block;
 }
 
 body{
