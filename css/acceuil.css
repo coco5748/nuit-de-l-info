@@ -15,4 +15,12 @@ body{
 
 a{
     color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.5s ;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    font-size: larger;
 }
