@@ -23,3 +23,10 @@ a:hover{
     text-decoration: underline;
     font-size: larger;
 }
+
+body{
+    margin: 0px;
+    background-image: url("../img/fond.png");
+    background-size: cover;
+    background-position: center;
+}
