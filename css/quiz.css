@@ -1,4 +1,4 @@
-button{
+.launch{
     background-color: rgb(120, 120, 184);
     padding: 5px;
     border-radius: 5rem;
@@ -38,3 +38,5 @@ body{
     background-position: center;
     color: white;
 }
+
+#a , #b , #c, #d {}
