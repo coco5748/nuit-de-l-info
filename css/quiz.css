@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     border: solid white;
-    height: 20rem;
+    height: 22rem;
     width: 35rem;
     left: 30rem;
     top: -2rem;
@@ -20,11 +20,22 @@
     margin-left: 33%;
 }
 
+#ennoncer{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 #reponses{
     display: flex;
     justify-content: space-around;
     width: 10rem;
     width: 15rem;
+}
+
+#scoreBox{
+    display: flex;
+    margin-left: 2rem;
+    font-size: 23px;
 }
 
 a{
@@ -42,12 +53,7 @@ body{
     border-radius: 2rem;
     width: 8rem;
     height: 5rem;
-}
-
-h1{
-    margin-left: 3rem;
-    position: relative;
-    top: -3rem;
+    margin: 0.5rem;
 }
 
 #q,#ennoncer{

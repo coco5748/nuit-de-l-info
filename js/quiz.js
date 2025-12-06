@@ -21,6 +21,8 @@ function afficherQuestion(){
     document.getElementById("b").innerHTML=quiz[nb].reponses[1];
     document.getElementById("c").innerHTML=quiz[nb].reponses[2];
     document.getElementById("d").innerHTML=quiz[nb].reponses[3];
+
+    document.getElementById("score").innerHTML=nb;
 }
 
 afficherQuestion();
