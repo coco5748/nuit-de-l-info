@@ -11,7 +11,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: solid white;
+    border: solid rgb(123, 209, 249);
     height: 22rem;
     width: 35rem;
     left: 30rem;
@@ -36,15 +36,20 @@
     display: flex;
     margin-left: 2rem;
     font-size: 23px;
+    border: 1px solid rgb(123, 209, 249);
+    padding-left: 1rem;
+    width: 15rem;
+    background-color: rgb(4, 9, 33);        
+
 }
 
 a{
-    color: white;
+    color: rgb(123, 209, 249);
 }
 
 body{
     background-image: url("../img/fond.png");
-    color: white;
+    color: rgb(123, 209, 249);
 }
 
 #a ,#b ,#c ,#d{
@@ -65,8 +70,11 @@ body{
 }
 
 #reset{
+    position: relative;
+    left:1.5rem;
     padding-left: 6rem;
     padding-right: 6rem;
     font-size: larger;
+    background-color: rgb(123, 209, 249);
 }
 
